@@ -1,0 +1,10 @@
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\bin\Debug\DAL.dll.config
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\bin\Debug\DAL.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\bin\Debug\DAL.pdb
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\obj\Debug\DAL.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\DAL\obj\Debug\DAL.pdb
