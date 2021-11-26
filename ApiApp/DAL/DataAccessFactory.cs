@@ -18,5 +18,11 @@ namespace DAL
         {
             return new ProjectRepo(db);
         }
+
+
+        public static IRepo<int, int> EnrollmentDataAcess()
+        {
+            return new EnrollmentRepo(db);
+        }
     }
 }

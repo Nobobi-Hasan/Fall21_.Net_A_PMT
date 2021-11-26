@@ -34,6 +34,31 @@ namespace DAL
             db.SaveChanges();
         }
 
+
+        public void StateProgress(int pId)
+        {
+            var project = db.Projects.FirstOrDefault(e => e.Id == pId);
+            if(project.Status == "Open")
+            {
+                project.Status = "In Progress";
+                db.SaveChanges();
+            }
+        }
+
+        public void StateCompleted(int pId)
+        {
+            var project = db.Projects.FirstOrDefault(e => e.Id == pId);
+            if (project.Status == "In Progress")
+            {
+                project.Status = "Completed";
+                db.SaveChanges();
+            }
+        }
+
+
+
+
+
         public List<Project> GetAll()
         {
             return db.Projects.ToList();
@@ -88,5 +113,7 @@ namespace DAL
             }
             return project;
         }
+
+        
     }
 }
