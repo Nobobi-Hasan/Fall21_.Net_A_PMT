@@ -16,6 +16,7 @@ namespace DAL
 
         public void Add(Project e)
         {
+            e.Status = "Open";
             db.Projects.Add(e);
             db.SaveChanges();
         }
@@ -37,8 +38,15 @@ namespace DAL
 
         public void StateProgress(int pId)
         {
+            var entity = (from e in db.Enrollments
+                          where e.Status == "Confirmed"
+                          && e.ProjectId == pId
+                          select e).ToList();
+
+            int count = entity.Count;
+
             var project = db.Projects.FirstOrDefault(e => e.Id == pId);
-            if(project.Status == "Open")
+            if(project.Status == "Open" && count >= 3)
             {
                 project.Status = "In Progress";
                 db.SaveChanges();
@@ -54,9 +62,6 @@ namespace DAL
                 db.SaveChanges();
             }
         }
-
-
-
 
 
         public List<Project> GetAll()

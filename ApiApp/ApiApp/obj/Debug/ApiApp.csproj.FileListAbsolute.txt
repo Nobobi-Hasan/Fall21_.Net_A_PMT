@@ -69,3 +69,10 @@ C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\obj\Debug\ApiApp.csproj.CoreC
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\obj\Debug\ApiApp.csproj.CopyComplete
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\obj\Debug\ApiApp.dll
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\obj\Debug\ApiApp.pdb
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\AutoMapper.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\DAL.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\EntityFramework.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\AutoMapper.xml
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\DAL.pdb
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\DAL.dll.config
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\EntityFramework.xml

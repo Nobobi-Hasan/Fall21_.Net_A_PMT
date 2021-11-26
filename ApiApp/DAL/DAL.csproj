@@ -56,10 +56,12 @@
     <Compile Include="Enrollment.cs">
       <DependentUpon>PMT.tt</DependentUpon>
     </Compile>
+    <Compile Include="EnrollmentRepo.cs" />
     <Compile Include="IRepo.cs" />
     <Compile Include="Member.cs">
       <DependentUpon>PMT.tt</DependentUpon>
     </Compile>
+    <Compile Include="MemberRepo.cs" />
     <Compile Include="PMT.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,6 +85,7 @@
     <Compile Include="Supervisor.cs">
       <DependentUpon>PMT.tt</DependentUpon>
     </Compile>
+    <Compile Include="SupervisorRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="PMT.edmx">

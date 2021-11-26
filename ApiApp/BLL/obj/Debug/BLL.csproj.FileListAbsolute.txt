@@ -12,3 +12,5 @@ C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\obj\Debug\BLL.csproj.CoreCompile
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\obj\Debug\BLL.dll
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\obj\Debug\BLL.pdb
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\BLL\bin\Debug\AutoMapper.xml
