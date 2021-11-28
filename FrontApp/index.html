@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+  <head>
+    <!--<base href="/" />-->
+    <meta charset="utf-8">
+    <script src="app/lib/angular.min.js"></script>
+
+    <script src="app/lib/angular.route.min.js"></script>
+    <script src="app/app.js"></script>
+
+    <title>PMT</title>
+  </head>
+  <body ng-app="myApp">
+    <div ng-include="'views/inc/HomeNav.html'"></div>
+    <!-- <div ng-include="'views/inc/MemberNav.html'"></div> -->
+    <div ng-include="'views/inc/side_nav.html'"></div>
+    <div ng-view> </div>
+  </body>
+</html>
+
+<!-- Add Services here -->
+<script src="app/services/ajax.js"></script>
+
+
+<!-- Add Controllers here -->
+<script src="app/controllers/demo.js"></script>
+<script src="app/controllers/demo2.js"></script>
+<script src="app/controllers/products.js"></script>
+<script src="app/controllers/MemberController/OpenProjects.js"></script>
+<script src="app/controllers/MemberController/AppliedProjects.js"></script>
+<script src="app/controllers/MemberController/MemberProjects.js"></script>
+
+
+<script src="app/controllers/SupervisorController/Enrollments.js"></script>
+<script src="app/controllers/SupervisorController/EnrollmentDecline.js"></script>
+<script src="app/controllers/SupervisorController/SupervisorOpenProjects.js"></script>
+<script src="app/controllers/SupervisorController/SupervisorInProgressProjects.js"></script>
+<script src="app/controllers/SupervisorController/SupervisorCompletedProjects.js"></script>
+
+
+

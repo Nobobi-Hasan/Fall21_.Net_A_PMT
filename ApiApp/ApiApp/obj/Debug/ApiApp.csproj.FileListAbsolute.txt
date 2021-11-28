@@ -76,3 +76,6 @@ C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\AutoMapper.xml
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\DAL.pdb
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\DAL.dll.config
 C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\EntityFramework.xml
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\System.Web.Cors.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\System.Web.Http.Cors.dll
+C:\Users\Arosh\Desktop\C#\Assignment\ApiApp\ApiApp\bin\System.Web.Http.Cors.xml

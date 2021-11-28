@@ -30,8 +30,9 @@ namespace DAL
     }
 
 
-    public interface IRepo<ID1, ID2>
+    public interface IRepo<T, ID1, ID2, Extra>
     {
+        List<T> GetAll();
         void Add(ID1 pId, ID2 mId);
         void Confirm(ID1 eId);
         void Decline(ID1 eId);

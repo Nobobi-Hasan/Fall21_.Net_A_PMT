@@ -1,0 +1,19 @@
+<div ng-include="'views/inc/SupervisorNav.html'"></div>
+<div>
+  <h1>Open Projects</h1>
+
+    <table border="1">
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+      <tr ng-repeat="p in OpenProjects">
+        <td>{{p.Id}}</td>
+        <td>{{p.Title}}</td>
+        <td>{{p.Description}}</td>
+        <td></td>
+      </tr>
+    </table>
+</div>

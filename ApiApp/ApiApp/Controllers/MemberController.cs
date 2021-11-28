@@ -6,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ApiApp.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class MemberController : ApiController
     {
        
@@ -25,7 +27,7 @@ namespace ApiApp.Controllers
         [HttpPost]
         public void Add(int pId)
         {
-            EnrollmentService.Add(pId, 1);
+            EnrollmentService.Add(pId, 5);
         }
 
 

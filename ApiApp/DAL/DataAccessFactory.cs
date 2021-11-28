@@ -20,7 +20,7 @@ namespace DAL
         }
 
 
-        public static IRepo<int, int> EnrollmentDataAcess()
+        public static IRepo<Enrollment, int, int, string> EnrollmentDataAcess()
         {
             return new EnrollmentRepo(db);
         }

@@ -1,0 +1,24 @@
+<div ng-include="'views/inc/MemberNav.html'"></div>
+<div>
+  <h1>{{status}} Projects</h1>
+
+    <table border="1">
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+      </tr>
+      <tr ng-repeat="p in MemberProjects">
+        <td>{{p.Id}}</td>
+        <td>{{p.Title}}</td>
+        <td>{{p.Description}}</td>
+      </tr>
+
+      <!-- <tr>
+        <td>{{InProgressProjects.userId}}</td>
+        <td>{{InProgressProjects.title}}</td>
+        <td>{{InProgressProjects.body}}</td>
+        <td></td>
+      </tr> -->
+    </table>
+</div>

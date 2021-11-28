@@ -1,0 +1,17 @@
+<div ng-include="'views/inc/MemberNav.html'"></div>
+<div>
+  <h1>Applied Projects</h1>
+
+    <table border="1">
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+      </tr>
+      <tr ng-repeat="p in AppliedProjects">
+          <td>{{p.Id}}</td>
+          <td>{{p.Title}}</td>
+          <td>{{p.Description}}</td>
+      </tr>
+    </table>
+</div>

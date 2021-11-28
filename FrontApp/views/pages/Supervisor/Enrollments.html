@@ -1,0 +1,25 @@
+<div ng-include="'views/inc/SupervisorNav.html'"></div>
+<div>
+  <h1>Enrollments</h1>
+  <h1>{{route}}</h1>
+
+    <table border="1">
+      <tr>
+        <th>Id</th>
+        <th>Project Id</th>
+        <th>Member Id</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+      <tr ng-repeat="e in Enrollments">
+          <td>{{e.Id}}</td>
+          <td>{{e.ProjectId}}</td>
+          <td>{{e.MemberId}}</td>
+          <td>{{e.Status}}</td>
+          <td>
+            <a href="#!Supervisor/Enrollments/Confirm/{{e.Id}}">Accept</a>|
+            |<a href="#!Supervisor/Enrollments/Decline/{{e.Id}}">Decline</a>
+          </td>
+      </tr>
+    </table>
+</div>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    class EnrollmentRepo : IRepo<int, int>
+    class EnrollmentRepo : IRepo<Enrollment, int, int, string>
     {
 
         PMTEntities db;
@@ -26,7 +26,12 @@ namespace DAL
             db.SaveChanges();
         }
 
-       
+        public List<Enrollment> GetAll()
+        {
+            return db.Enrollments.ToList();
+        }
+
+
 
         public void Confirm(int eId)
         {
