@@ -25,6 +25,13 @@ app.config(["$routeProvider","$locationProvider",function($routeProvider,$locati
 
 
 // ////////////////////////////////////////////////////////////////////////////
+    
+    .when("/Supervisor/AddProject", {
+        templateUrl : "views/pages/Supervisor/AddProjects.html",
+        controller: 'AddProjects'
+    })
+
+
 
 
     .when("/Supervisor/Enrollments", {
@@ -43,20 +50,41 @@ app.config(["$routeProvider","$locationProvider",function($routeProvider,$locati
     })
 
 
+
+
     .when("/Supervisor/Projects/Open", {
         templateUrl : "views/pages/Supervisor/OpenProjects.html",
         controller: 'SupervisorOpenProjects'
+    }) 
+    .when("/Supervisor/Projects/Open/:id", {
+        templateUrl : "views/pages/Supervisor/OpenProjects.html",
+        controller: 'SupervisorOpenProjects'
     })
+
+
+
 
     .when("/Supervisor/Projects/In Progress", {
         templateUrl : "views/pages/Supervisor/InProgressProjects.html",
         controller: 'SupervisorInProgressProjects'
     })
+    .when("/Supervisor/Projects/In Progress/:id", {
+        templateUrl : "views/pages/Supervisor/InProgressProjects.html",
+        controller: 'SupervisorInProgressProjects'
+    })
+
+
+
 
     .when("/Supervisor/Projects/Completed", {
         templateUrl : "views/pages/Supervisor/CompletedProjects.html",
         controller: 'SupervisorCompletedProjects'
     })
+
+
+
+
+    
 
 
 

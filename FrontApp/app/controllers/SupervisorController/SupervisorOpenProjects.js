@@ -2,20 +2,21 @@ app.controller("SupervisorOpenProjects",function($scope,$http,ajax,$routeParams)
     ajax.get("https://localhost:44336/api/Project/Open",success,error);
     function success(response){
       $scope.OpenProjects=response.data;
+      $scope.route=$routeParams.id;
     }
     function error(error){
     }
 
-    // if($routeParams!= null)
-    // {
-    //   ajax.post("https://localhost:44336/api/Member/Enroll/"+$routeParams.id,success,error);
-    //   function success(response){
+    if($routeParams!= null)
+    {
+      ajax.post("https://localhost:44336/api/Project/StateProgress/"+$routeParams.id,success,error);
+      function success(response){
         
-    //   }
-    //   function error(error){
-    //   }
+      }
+      function error(error){
+      }
 
-    // }
+    }
 });
 
 

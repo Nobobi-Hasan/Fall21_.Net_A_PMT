@@ -6,14 +6,14 @@ app.controller("SupervisorInProgressProjects",function($scope,$http,ajax,$routeP
     function error(error){
     }
 
-    // if($routeParams!= null)
-    // {
-    //   ajax.post("https://localhost:44336/api/Member/Enroll/"+$routeParams.id,success,error);
-    //   function success(response){
+    if($routeParams!= null)
+    {
+      ajax.post("https://localhost:44336/api/Project/StateCompleted/"+$routeParams.id,success,error);
+      function success(response){
         
-    //   }
-    //   function error(error){
-    //   }
+      }
+      function error(error){
+      }
 
-    // }
+    }
 });

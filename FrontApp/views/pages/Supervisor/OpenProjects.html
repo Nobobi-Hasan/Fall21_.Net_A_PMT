@@ -1,6 +1,7 @@
 <div ng-include="'views/inc/SupervisorNav.html'"></div>
 <div>
   <h1>Open Projects</h1>
+  {{route}}
 
     <table border="1">
       <tr>
@@ -13,7 +14,7 @@
         <td>{{p.Id}}</td>
         <td>{{p.Title}}</td>
         <td>{{p.Description}}</td>
-        <td></td>
+        <td><a href="#!Supervisor/Projects/Open/{{p.Id}}">Make In-Progress</a>|</td>
       </tr>
     </table>
 </div>

@@ -1,0 +1,13 @@
+<div ng-include="'views/inc/SupervisorNav.html'"></div>
+<div>
+  <h1>Add New Projects</h1>
+  <h1>{{test}}</h1>
+
+  <form ng-submit = "submit()">
+      <textarea ng-model = "Title" placeholder="Title"></textarea>
+      <textarea ng-model = "Description" placeholder="Description"></textarea>
+      <input type="number" ng-model = "CategoryId" placeholder="CategoryId">
+      <input type="number" ng-model = "SupervisorId" placeholder="SupervisorId">
+      <input type="submit">
+  </form>
+</div>
